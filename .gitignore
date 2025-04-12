@@ -16,3 +16,6 @@ npm-debug.log
 dist
 coverage
 .*.csv
+
+# Local Netlify folder
+.netlify
