@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UK Postcode Lookup - RabbitLoader Tool</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body style="font-family: Inter, sans-serif; padding: 40px 20px; max-width: 800px; margin: auto;">
+
+  <h1 style="font-size: 36px; font-weight: 700; margin-bottom: 20px;">UK Postcode Lookup</h1>
+  <p style="font-size: 16px; color: #4a5568; margin-bottom: 24px;">Enter a valid UK postcode to get location details using the Postcodes.io API.</p>
+
+  <input id="postcodeInput" type="text" placeholder="E.g. EC1A 1BB" style="width: 100%; padding: 12px; font-size: 16px; border-radius: 8px; border: 1px solid #ccc;" />
+  <button id="lookupBtn" style="margin-top: 16px; padding: 12px 24px; background-color: #007bff; color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: 600;">Lookup</button>
+
+  <pre id="resultBox" style="background: #f8f9fa; padding: 20px; margin-top: 30px; border-radius: 8px; border: 1px solid #ccc; font-size: 14px;"></pre>
+
+  <script src="postcode.js"></script>
+</body>
+</html>
